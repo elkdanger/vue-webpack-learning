@@ -7,8 +7,8 @@
 </script>
 
 
-<style lang="css">
+<style lang="scss">
 button {
-  color: red;
+  color: green;
 }
 </style>

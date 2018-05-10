@@ -39,13 +39,8 @@ module.exports = {
         loader: 'babel-loader',
         exclude: /node_modules/
       }, {
-        test: /\.css$/,
-        loaders: [
-          isProduction
-            ? MiniCssExtractPlugin.loader
-            : 'vue-style-loader',
-          'css-loader'
-        ]
+        test: /\.scss$/,
+        loaders: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
       }
     ]
   },

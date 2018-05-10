@@ -1,13 +1,12 @@
 <template>
     <div>
-        <h1>My Webpack Site</h1>
+        <h1>My Webpack Site!</h1>
         <p>This is pretty awesome</p>
         <Button />
     </div>
 </template>
 
 <script>
-import './App.css'
 import Button from './Button'
 
 module.exports = {
@@ -17,10 +16,9 @@ module.exports = {
 }
 </script>
 
-<style lang="css">
+<style lang="scss">
 h1 {
   font-family: Helvetica, sans-serif;
   font-size: 3rem;
-  color: blue;
 }
 </style>
